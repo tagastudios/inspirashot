@@ -325,6 +325,16 @@
   width: 10%;
 }
 
+.hero-title-placeholder img {
+  max-height: 500px;
+}
+
+.hero-title-placeholder.completed img {
+  max-height: 84px;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .new-hero-title span.text-rotator > span {
   font-size: calc((1rem + 11.5vw) / 2);
   box-sizing: border-box;
